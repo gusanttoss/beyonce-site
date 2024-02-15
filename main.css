@@ -1,0 +1,208 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: grey;
+    padding: 20px;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul li {
+    display: inline;
+    margin-right: 50px;
+    text-align: center;
+    font-family: 'Rowdies', sans-serif;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+header nav ul li a:hover {
+    color: black;
+}
+
+.container {
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.home {
+
+    background-image: url(image/beyonce-home.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+  }
+  .home p {
+    position: absolute;
+    top: 380px;
+    left: 160px;
+    font-size: 40px;
+    color: rgb(255, 255, 255);
+    font-family: 'Rowdies', sans-serif;
+  }
+
+  .home h1 {
+    position: absolute;
+    left: 160px;
+    top: 300px;
+    font-size: 70px;
+    color: rgb(255, 255, 255);
+    font-family: 'Rowdies', sans-serif;
+  }
+
+  .home { 
+    transition: 0.5s; 
+}
+
+.home:hover { 
+    opacity: 0.8;
+}
+
+.music h1 {
+    color:black;
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+}
+
+.music h2 {
+    color: #fff;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.music {
+    background-image: url(image/Beyonce-My-House.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.music:hover{
+    opacity: 0.9;
+}
+
+.music audio {
+  display: block;
+  width: 50%;
+  margin-top: 250px;
+  margin-left: 350px;
+}
+
+.music audio:hover {
+    opacity: 0.8;
+}
+
+.about {
+    background-image: url(image/beyonce-home-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+}
+
+.about:hover {
+    opacity: 0.9;
+}
+
+.articles article {
+    width: 30%;
+    padding: 10px;
+
+}
+
+section {
+    background-color: black;
+    
+}
+
+.about p {
+    width: 50%;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 300px;
+    background-color: #fff;
+    padding: 8px;
+}
+
+.about h1 {
+   color: #fff;
+   padding: 20px;
+   font-size: 30px;
+   text-align: center;
+}
+
+.newsletter {
+
+    background-image: url(image/beyonce-newsletter.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+
+
+}
+
+.newsletter h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    padding: 8px;
+}
+
+.newsletter h2 {
+    color: #fff;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 40px;
+}
+
+form input {
+    display: block;
+    border-color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    padding: 5px;
+    width: 90%;
+}
+
+form button {
+    display: block;
+    background-color: transparent;
+    border-color: #fff;
+    color: #fff;
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 8px; 
+    width: 90%;  
+}
+
+form button:hover {
+   opacity: 0.8;
+}
+
+form {
+    width: 90%;
+    margin-top: 200px;
+    margin-left: 120px;
+    opacity: 0.5;
+}
+
+footer {
+    background-color: grey;
+    color: #fff;
+    padding: 8px;
+    text-align: center;
+
+}
